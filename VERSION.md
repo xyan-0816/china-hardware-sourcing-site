@@ -1,8 +1,9 @@
 # Version
 
-- 版本：V1.4.1
-- 状态：Customer proof test version
-- 产品卡片：24
-- 用途：开发信背书
-- 不建议：作为最终正式官网直接长期使用
-- 下一阶段：部署到 Cloudflare Pages，绑定 `chinahardwaresourcing.com`
+- Version: V1.4.2
+- Status: Customer proof test version
+- Product cards: 24
+- Purpose: sales outreach proof and initial hardware sourcing introduction
+- Not recommended: direct long-term use as the final official website
+- This update: hardware sourcing positioning, product range wording, and mobile first-screen layout optimization
+- Next stage: verify mobile display online, then continue DNS/domain setup for `chinahardwaresourcing.com`

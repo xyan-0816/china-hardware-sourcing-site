@@ -1,6 +1,6 @@
 # China Hardware Sourcing Website
 
-Current version: V1.4.1 Customer Proof Version
+Current version: V1.4.2 Customer Proof Version
 
 ## Current Use
 
@@ -21,4 +21,4 @@ Product images are representative visuals for initial sourcing discussion. Final
 
 ## Deployment
 
-Cloudflare Pages connected to GitHub repository.
+GitHub Pages / Cloudflare Pages connected to this GitHub repository.
