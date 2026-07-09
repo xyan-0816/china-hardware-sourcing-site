@@ -153,7 +153,7 @@ h1, h2, h3 { line-height: 1.14; }
 .btn.secondary.light { background: transparent; }
 .hero-media {
   position: relative;
-  align-self: end;
+  align-self: center;
   aspect-ratio: 16 / 9;
   min-height: 0;
   max-height: 600px;
@@ -192,11 +192,11 @@ h1, h2, h3 { line-height: 1.14; }
 .hero-note-media {
   grid-column: 2;
   align-self: start;
-  margin: clamp(-48px, -3.5vw, -30px) 0 0;
+  margin: -90px 0 0;
   max-width: 640px;
   color: #c7d2da;
   font-size: 13px;
-  line-height: 1.35;
+  line-height: 1.45;
 }
 section { padding: clamp(48px, 7vw, 78px) clamp(18px, 5vw, 72px); }
 section[id] { scroll-margin-top: 84px; }
@@ -505,7 +505,7 @@ details p { margin: 12px 0 0; color: var(--muted); }
   }
   .hero-note-media {
     grid-column: 1;
-    margin: -18px 0 0;
+    margin: 0;
     max-width: none;
   }
 }
