@@ -192,7 +192,7 @@ h1, h2, h3 { line-height: 1.14; }
 .hero-note-media {
   grid-column: 2;
   align-self: start;
-  margin: clamp(-104px, -7.2vw, -66px) 0 0;
+  margin: 12px 0 0;
   max-width: 640px;
   color: #c7d2da;
   font-size: 13px;
