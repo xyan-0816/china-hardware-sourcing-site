@@ -823,3 +823,14 @@ details p { margin: 12px 0 0; color: var(--muted); }
 main h2 {
   scroll-margin-top: 96px;
 }
+
+/* Conversion guide converter tool styles */
+.converter-tool { background: #f7f9fc; border: 1px solid #d0d7de; border-radius: 8px; padding: 1.25rem; margin: 1rem 0; max-width: 360px; }
+.converter-tool label { display: block; font-weight: 600; font-size: 0.875rem; margin-top: 0.75rem; margin-bottom: 0.25rem; }
+.converter-tool label:first-child { margin-top: 0; }
+.converter-tool input { width: 100%; padding: 0.5rem; border: 1px solid #bbb; border-radius: 4px; font-size: 1rem; box-sizing: border-box; margin-bottom: 0.25rem; }
+.converter-tool input[readonly] { background: #eef0f3; color: #333; }
+.converter-tool .btn.secondary { margin-top: 0.25rem; margin-bottom: 0.25rem; font-size: 0.8rem; padding: 0.25rem 0.75rem; }
+.conv-formula { background: #f0f3f7; border-left: 4px solid #1a5632; padding: 0.75rem 1rem; margin: 0.75rem 0; font-family: 'Courier New', monospace; font-size: 1rem; border-radius: 0 4px 4px 0; }
+.conv-note { font-size: 0.8rem; color: #666; margin-top: 0.5rem; margin-bottom: 0; font-style: italic; }
+
