@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/images/brand/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/images/brand/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/brand/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/images/brand/apple-touch-icon.png"><link rel="manifest" href="/images/brand/site.webmanifest"><meta name="theme-color" content="#071B34">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="canonical" href="https://chinahardwaresourcing.com/"><link rel="alternate" hreflang="en" href="https://chinahardwaresourcing.com/"><link rel="alternate" hreflang="zh-CN" href="https://chinahardwaresourcing.com/zh/"><link rel="alternate" hreflang="x-default" href="https://chinahardwaresourcing.com/"><link rel="icon" href="/images/brand/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/images/brand/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/brand/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/images/brand/apple-touch-icon.png"><link rel="manifest" href="/images/brand/site.webmanifest"><meta name="theme-color" content="#071B34">
   <title>China Fastener &amp; Hardware Sourcing Partner | China Hardware Sourcing</title>
   <meta name="description" content="China Hardware Sourcing helps importers, distributors, and industrial buyers review fastener categories, clarify specifications, and send RFQs for bolts, studs, nuts, washers, screws, anchors, and related hardware from China.">
   <link rel="stylesheet" href="css/style.css?v=hero-note-spacing-20260709">
@@ -54,7 +54,7 @@
       <a href="contact.html" data-en="Contact" data-zh="联系">Contact</a>
       <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">中文</button>
       <a class="nav-rfq" href="#contact-rfq" data-en="Send RFQ" data-zh="发送询盘">Send RFQ</a>
-    </nav>
+    <a class="lang-switch" href="/zh/" data-lang-base="/zh/">中文</a><a class="lang-switch" href="/zh/" data-lang-base="/zh/">中文</a></nav>
   </header>
   <main>
     <section class="hero hero-industrial">
@@ -329,5 +329,5 @@
       toggle.addEventListener("click", () => applyLanguage(lang === "en" ? "zh" : "en"));
     })();
   </script>
-</body>
+<script>function syncLanguageHash(){var a=document.querySelector('.lang-switch[data-lang-base]');if(a)a.href=a.dataset.langBase+(location.hash||'');}addEventListener('hashchange',syncLanguageHash);syncLanguageHash();</script><script>function syncLanguageHash(){var a=document.querySelector('.lang-switch[data-lang-base]');if(a)a.href=a.dataset.langBase+(location.hash||'');}addEventListener('hashchange',syncLanguageHash);syncLanguageHash();</script></body>
 </html>
