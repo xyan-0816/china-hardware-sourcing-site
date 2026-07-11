@@ -24,15 +24,15 @@
 
     <section class="section-light"><div class="section-head"><h2>Inch to Millimeter Conversion</h2></div>
     <div class="split-section"><div><p>The exact relationship is:</p><div class="conv-formula"><code>millimeters = inches &times; 25.4</code></div><p>For example:</p><ul class="guide-checklist"><li>1/2 inch = 0.5 &times; 25.4 = <strong>12.7 mm</strong></li><li>3/8 inch = 0.375 &times; 25.4 = <strong>9.525 mm</strong></li><li>1 inch = 1.0 &times; 25.4 = <strong>25.4 mm</strong></li></ul></div><div><h3>Inch &harr; Millimeter Converter</h3>
-    <div class="converter-tool"><label for="inchInput">Inches (in)</label><input type="number" id="inchInput" step="any" placeholder="e.g. 0.5" oninput="convInchToMm()"><button class="btn secondary" onclick="document.getElementById('inchInput').value='';document.getElementById('mmOutput').value='';">Clear</button><label for="mmOutput">Millimeters (mm)</label><input type="number" id="mmOutput" step="any" placeholder="Result" readonly><p class="conv-note">Reference conversion only. Decimal inches use the format 0.5 for 1/2 inch. This tool does not provide interchangeable product recommendations.</p></div></div></div></section>
+    <div class="converter-tool"><label for="inchInput">Inches (in)</label><input type="number" id="inchInput" step="any" min="0" placeholder="e.g. 0.5" oninput="convInchToMm()"><button class="btn secondary" onclick="document.getElementById('inchInput').value='';document.getElementById('mmOutput').value='';">Clear</button><label for="mmOutput">mm (reference only)</label><input type="number" id="mmOutput" step="any" placeholder="Result" readonly><p class="conv-note">Reference conversion only. Decimal inches use the format 0.5 for 1/2 inch. This tool does not provide interchangeable product recommendations.</p></div></div></div></section>
 
     <section class="section-paper"><div class="section-head"><h2>Millimeter to Inch Conversion</h2></div>
     <div class="split-section"><div><p>The exact relationship is:</p><div class="conv-formula"><code>inches = millimeters &divide; 25.4</code></div><p>For example:</p><ul class="guide-checklist"><li>12 mm &divide; 25.4 = <strong>0.4724 in</strong></li><li>10 mm &divide; 25.4 = <strong>0.3937 in</strong></li><li>6 mm &divide; 25.4 = <strong>0.2362 in</strong></li></ul></div><div><h3>Millimeter &harr; Inch Converter</h3>
-    <div class="converter-tool"><label for="mmInput">Millimeters (mm)</label><input type="number" id="mmInput" step="any" placeholder="e.g. 12" oninput="convMmToInch()"><button class="btn secondary" onclick="document.getElementById('mmInput').value='';document.getElementById('inchOutput').value='';">Clear</button><label for="inchOutput">Inches (in)</label><input type="number" id="inchOutput" step="any" placeholder="Result" readonly><p class="conv-note">Reference conversion only. This tool does not provide interchangeable product recommendations.</p></div></div></div></section>
+    <div class="converter-tool"><label for="mmInput">Millimeters (mm)</label><input type="number" id="mmInput" step="any" min="0" placeholder="e.g. 12" oninput="convMmToInch()"><button class="btn secondary" onclick="document.getElementById('mmInput').value='';document.getElementById('inchOutput').value='';">Clear</button><label for="inchOutput">inch (reference only)</label><input type="number" id="inchOutput" step="any" placeholder="Result" readonly><p class="conv-note">Reference conversion only. This tool does not provide interchangeable product recommendations.</p></div></div></div></section>
 
     <section class="section-light"><div class="section-head"><h2>Thread Pitch and TPI Conversion</h2></div>
     <div class="split-section"><div><p>Thread pitch is the distance between adjacent thread crests. For metric fasteners, pitch is measured in millimeters. For inch fasteners, threads per inch (TPI) is used.</p><p>The conversion formula:</p><div class="conv-formula"><code>metric pitch (mm) = 25.4 &divide; TPI</code></div><div class="conv-formula"><code>TPI = 25.4 &divide; metric pitch (mm)</code></div><p>Examples:</p><ul class="guide-checklist"><li>13 TPI = 25.4 &divide; 13 = <strong>1.954 mm</strong> pitch</li><li>20 TPI = 25.4 &divide; 20 = <strong>1.27 mm</strong> pitch</li><li>1.75 mm pitch = 25.4 &divide; 1.75 = <strong>14.5 TPI</strong> (reference only)</li></ul><p>Even when the pitch value converts closely, UNC, UNF and metric threads are not interchangeable because thread profile, tolerance, and dimensional standards are different.</p></div><div><h3>TPI &harr; Metric Pitch Converter</h3>
-    <div class="converter-tool"><label for="tpiInput">TPI (Threads per inch)</label><input type="number" id="tpiInput" step="any" placeholder="e.g. 13" min="1" oninput="convTpiToPitch()"><button class="btn secondary" onclick="document.getElementById('tpiInput').value='';document.getElementById('pitchOutput').value='';">Clear</button><label for="pitchOutput">Metric pitch (mm)</label><input type="number" id="pitchOutput" step="any" placeholder="Result" readonly><p class="conv-note">Reference conversion only. Equivalent pitch does not mean interchangeable threads.</p></div></div></div></section>
+    <div class="converter-tool"><label for="tpiInput">TPI (Threads per inch)</label><input type="number" id="tpiInput" step="any" placeholder="e.g. 13" min="1" oninput="convTpiToPitch()"><button class="btn secondary" onclick="document.getElementById('tpiInput').value='';document.getElementById('pitchOutput').value='';">Clear</button><label for="pitchOutput">TPI conversion result (reference only)</label><input type="number" id="pitchOutput" step="any" placeholder="Result" readonly><p class="conv-note">Reference conversion only. Equivalent pitch does not mean interchangeable threads.</p></div></div></div></section>
 
     <section class="section-paper"><div class="section-head"><h2>Metric, UNC and UNF Thread Differences</h2></div>
     <div class="table-scroll"><table class="knowledge-table"><thead><tr><th>Characteristic</th><th>Metric Coarse</th><th>Metric Fine</th><th>UNC (Unified Coarse)</th><th>UNF (Unified Fine)</th></tr></thead><tbody><tr><td>Thread system</td><td>Metric (ISO 68, DIN 13)</td><td>Metric (ISO 68, DIN 13)</td><td>Inch (ASME B1.1)</td><td>Inch (ASME B1.1)</td></tr><tr><td>Diameter unit</td><td>Millimeters</td><td>Millimeters</td><td>Inches (fractional)</td><td>Inches (fractional)</td></tr><tr><td>Pitch designation</td><td>mm per thread</td><td>mm per thread</td><td>Threads per inch (TPI)</td><td>Threads per inch (TPI)</td></tr><tr><td>Thread profile angle</td><td>60&deg;</td><td>60&deg;</td><td>60&deg;</td><td>60&deg;</td></tr><tr><td>Common standards</td><td>DIN 13, ISO 261</td><td>DIN 13, ISO 261</td><td>ASME B1.1, ASTM</td><td>ASME B1.1, ASTM</td></tr><tr><td>Typical grade references</td><td>Class 4.8, 5.8, 8.8, 10.9, 12.9</td><td>Class 4.8, 5.8, 8.8, 10.9, 12.9</td><td>Grade 2, Grade 5, Grade 8</td><td>Grade 2, Grade 5, Grade 8</td></tr><tr><td>Thread fit tolerance</td><td>6g/6H common</td><td>6g/6H common</td><td>Class 2A/2B common</td><td>Class 2A/2B common</td></tr></tbody></table></div><p class="section-note">This comparison is for reference only. Metric and inch product requirements should be confirmed based on the buyer's drawing, standard, BOM, or RFQ requirements.</p></section>
@@ -100,23 +100,23 @@
     function convInchToMm() {
       var inch = document.getElementById('inchInput').value;
       var out = document.getElementById('mmOutput');
-      if (inch === '' || isNaN(parseFloat(inch))) { out.value = ''; return; }
+      if (inch === '' || isNaN(parseFloat(inch)) || parseFloat(inch) < 0) { out.value = ''; return; }
       var mm = parseFloat(inch) * 25.4;
-      out.value = mm.toFixed(4) + ' mm (reference)';
+      out.value = mm.toFixed(4);
     }
     function convMmToInch() {
       var mm = document.getElementById('mmInput').value;
       var out = document.getElementById('inchOutput');
-      if (mm === '' || isNaN(parseFloat(mm))) { out.value = ''; return; }
+      if (mm === '' || isNaN(parseFloat(mm)) || parseFloat(mm) < 0) { out.value = ''; return; }
       var inch = parseFloat(mm) / 25.4;
-      out.value = inch.toFixed(4) + ' in (reference)';
+      out.value = inch.toFixed(4);
     }
     function convTpiToPitch() {
       var tpi = document.getElementById('tpiInput').value;
       var out = document.getElementById('pitchOutput');
       if (tpi === '' || isNaN(parseFloat(tpi)) || parseFloat(tpi) <= 0) { out.value = ''; return; }
       var pitch = 25.4 / parseFloat(tpi);
-      out.value = pitch.toFixed(4) + ' mm (reference)';
+      out.value = pitch.toFixed(4);
     }
   </script>
 </body>
