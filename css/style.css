@@ -115,6 +115,16 @@ a { color: inherit; }
   position: relative;
   z-index: 2;
 }
+.hero-visual {
+  min-width: 0;
+  align-self: center;
+}
+.hero-visual .hero-support {
+  margin: 8px 0 0;
+  max-width: 640px;
+  color: #e8eef2;
+  font-size: 15px;
+}
 .eyebrow {
   margin: 0 0 12px;
   color: var(--accent-2);
@@ -198,9 +208,7 @@ h1, h2, h3 { line-height: 1.14; }
   filter: saturate(1.02) contrast(1.04);
 }
 .hero-note-media {
-  grid-column: 2;
-  align-self: start;
-  margin: -90px 0 0;
+  margin: 14px 0 0;
   max-width: 640px;
   color: #c7d2da;
   font-size: 13px;
@@ -511,8 +519,7 @@ details p { margin: 12px 0 0; color: var(--muted); }
     max-height: 420px;
   }
   .hero-note-media {
-    grid-column: 1;
-    margin: 0;
+    margin: 14px 0 0;
     max-width: none;
   }
 }
