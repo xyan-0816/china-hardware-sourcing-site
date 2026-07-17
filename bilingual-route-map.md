@@ -38,6 +38,7 @@
 | fasteners/washers/spring-washers/index.html | /fasteners/washers/spring-washers/ | zh/fasteners/washers/spring-washers/index.html | /zh/fasteners/washers/spring-washers/ | Complete | Full-site Chinese localization | English and Chinese pages complete |
 | index.html | / | zh/index.html | /zh/ | Paired | Phase 1 | Core page |
 | sourcing-guide/din-iso-fastener-standards/index.html | /sourcing-guide/din-iso-fastener-standards/ | zh/sourcing-guide/din-iso-fastener-standards/index.html | /zh/sourcing-guide/din-iso-fastener-standards/ | Complete | Full-site Chinese localization | English and Chinese pages complete |
+| sourcing-guide/bolt-grades-property-classes/index.html | /sourcing-guide/bolt-grades-property-classes/ | zh/sourcing-guide/bolt-grades-property-classes/index.html | /zh/sourcing-guide/bolt-grades-property-classes/ | Complete | Missing Chinese route repair | English and Chinese pages complete |
 | sourcing-guide/fastener-materials-and-finishes/index.html | /sourcing-guide/fastener-materials-and-finishes/ | zh/sourcing-guide/fastener-materials-and-finishes/index.html | /zh/sourcing-guide/fastener-materials-and-finishes/ | Complete | Full-site Chinese localization | English and Chinese pages complete |
 | sourcing-guide/fastener-moq-trial-orders/index.html | /sourcing-guide/fastener-moq-trial-orders/ | zh/sourcing-guide/fastener-moq-trial-orders/index.html | /zh/sourcing-guide/fastener-moq-trial-orders/ | Complete | Full-site Chinese localization | English and Chinese pages complete |
 | sourcing-guide/fastener-rfq-requirements/index.html | /sourcing-guide/fastener-rfq-requirements/ | zh/sourcing-guide/fastener-rfq-requirements/index.html | /zh/sourcing-guide/fastener-rfq-requirements/ | Complete | Full-site Chinese localization | English and Chinese pages complete |
@@ -46,12 +47,13 @@
 | sourcing-guide/metric-inch-fastener-conversion/index.html | /sourcing-guide/metric-inch-fastener-conversion/ | zh/sourcing-guide/metric-inch-fastener-conversion/index.html | /zh/sourcing-guide/metric-inch-fastener-conversion/ | Complete | Full-site Chinese localization | English and Chinese pages complete |
 | sourcing-guide/mixed-fastener-orders/index.html | /sourcing-guide/mixed-fastener-orders/ | zh/sourcing-guide/mixed-fastener-orders/index.html | /zh/sourcing-guide/mixed-fastener-orders/ | Complete | Full-site Chinese localization | English and Chinese pages complete |
 | sourcing-guide/mixed-fastener-rfq-support/index.html | /sourcing-guide/mixed-fastener-rfq-support/ | zh/sourcing-guide/mixed-fastener-rfq-support/index.html | /zh/sourcing-guide/mixed-fastener-rfq-support/ | Complete | Full-site Chinese localization | English and Chinese pages complete |
+| yongnian-fastener-hub/index.html | /yongnian-fastener-hub/ | zh/yongnian-fastener-hub/index.html | /zh/yongnian-fastener-hub/ | Complete | Missing Chinese route repair | English and Chinese pages complete |
 | index.html#why-work-with-us | /#why-work-with-us | zh/index.html#why-work-with-us | /zh/#why-work-with-us | paired through bilingual homepage anchors | Phase 1 | Pair method: homepage anchor; Future option: establish standalone English and Chinese pages in a later phase |
 | index.html#contact-rfq | /#contact-rfq | zh/index.html#contact-rfq | /zh/#contact-rfq | paired through bilingual homepage anchors | Phase 1 | Pair method: homepage anchor; Future option: establish standalone English and Chinese pages in a later phase |
 
 ## Inventory notes
 
-- Final formal inventory: 44 English pages and 44 Chinese pages; 44/44 page pairs complete; untranslated pages: 0.
+- Final formal inventory: 46 English pages and 46 Chinese pages; 46/46 page pairs complete; untranslated pages: 0.
 - Legacy file-style route retained: `/contact.html`; paired Chinese route: `/zh/contact.html`.
 - No standalone About or Send RFQ pages were created.
 - No duplicate or legacy Chinese HTML pages were found.
